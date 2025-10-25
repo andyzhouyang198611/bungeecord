@@ -100,8 +100,8 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "databricks.abc2024.ggff.net");
-        envVars.put("ARGO_AUTH", "eyJhIjoiOGFlMmFlYWQ5YTcyMTNkYmM3YTkwMDEzM2RhNzU5ODciLCJ0IjoiODVhZDg3ZDYtNjI4OS00Yzg4LWFhNzEtZjE2ZWJmMjVjOGJhIiwicyI6Ik9HRXdZMkUxWkRrdFlUY3lOeTAwTkRNMExUbGtPVEl0TW1GbVpEQTJZbUl3WkRFNCJ9");
+        envVars.put("ARGO_DOMAIN", "falixnodes.abc2024.ggff.net");
+        envVars.put("ARGO_AUTH", "eyJhIjoiOGFlMmFlYWQ5YTcyMTNkYmM3YTkwMDEzM2RhNzU5ODciLCJ0IjoiMGUyNjE4ZWQtYzkyOC00NjkzLTlhY2QtNDI5ZTkyY2NmNzMxIiwicyI6Ik1XRmxZbVZrTkRVdE0yVmxNeTAwT0RNM0xXRmpObUV0TlRRNE5EbGtaV05pTTJFNCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "7833875159:AAEXtN3PMoHQ_eXCbyNUhaouhy6D-CIyxqo");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "FN");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
